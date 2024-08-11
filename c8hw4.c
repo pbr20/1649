@@ -1,4 +1,4 @@
-                //up to low case and vice versa
+               //up to low case and vice versa
 
 #include<stdio.h>
 

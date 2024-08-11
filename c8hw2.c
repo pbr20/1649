@@ -1,4 +1,4 @@
-                //Finding highest frequency character in a string
+                    //Finding highest frequency character in a string
 
 #include<stdio.h>
 
@@ -20,7 +20,7 @@ void highestfrequencyc(char str[]){
    int count1 =0; int count2=0;
     for(int i=1; str[i] != '\0'; i++){
       for(int j=i; j >= 0; j--){
-        if(str[i] == str[j]){
+        if(str[i] == str[j] && str[i] != ' '){
           count1++;
         }
       }
