@@ -1,4 +1,4 @@
-                //Blankspace remover
+               //Blankspace remover
 
 #include<stdio.h>
 

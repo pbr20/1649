@@ -1,31 +1,28 @@
+                //Finding highest frequency character in a string
+
 #include<stdio.h>
 
-int main() {
+void highestfrequencyc(char str[]);
 
-char name[] = {"Rithen Barua"};
+int main(){
 
-printf("%s\n",name);       //%s -- strings specifier
-                         // name is a pointer 
 
-char name1[40];
 
-printf("What's your name?\n");
-scanf("%s",name);                         //scanf can't input multiple words
+abbcbbbbbbcccc
 
-printf("Your name is %s",name);*/
-
-                            //string function
-
-char bio[100];
-
-//gets(bio);               //input a string even multi words but it's unsafe and it's not working here
-
-//puts(bio);               //output a string even multi words also it gives next line automatically
-
-fgets(bio , 100 , stdin);
-
-puts(bio);
 
 
     return 0;
+}
+
+void highestfrequencyc(char str[]){
+   char ch;
+    for(int i=1; str[i] != '\0'; i++){
+      for(int j=0; j != i; j++){
+        if(str[i] == str[j]){
+            ch = str[i];
+        }
+      }
+      
+    }
 }
