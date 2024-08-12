@@ -90,7 +90,7 @@ else{
 
 
 }
-for(int i=0 ; i<=count; i++){
+for(int i=0 ; i<count; i++){
 printf("Post: %s Department: %s Name: %s Id: %d\n",in[i].post,in[i].Department,in[i].name,in[i].id);
 }
     return 0;
