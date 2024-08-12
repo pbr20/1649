@@ -25,18 +25,19 @@ printf("BLOCK LETTER\n");
 while(count<100){
 printf("Do you want to enter information Y/N\n");
 scanf(" %c",&confirmation);
+getchar();
 
 if(confirmation == 'Y'){
 
 printf("Enter status: ");
 
-getchar();
+
 fgets(status , sizeof(status) , stdin);
 
-status[strcspn(status, "\n")] = '\0';  //Remove trailing newline character from fgets
-
-s1 = strcmp(status , "STUDENT");
-s2 = strcmp(status , "TEACHER");
+status[strcspn(status, "\n")] = '\0';  //Remove trailing newline character from fgets // strcspn(status ,"\n") == value where \n included
+                                 
+s1 = strcmp(status , "STUDENT");     //IF we hadn't removed trailing newline chracter then the comparison of status would be with "student\n" 
+s2 = strcmp(status , "TEACHER");     //which will obviously make noise 
 s3 = strcmp(status , "STAFF");
 
 if(s1 == 0){
