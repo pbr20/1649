@@ -42,6 +42,20 @@ char com4[] = "abd";
 printf("%d\n",strcmp(com1 , com3));        
 printf("%d\n",strcmp(com1 , com2));        //if first character is equal the it will check next character till its equal
 printf("%d\n",strcmp(com1 , com4));        //it compare the ascii value 
-printf("%d\n",strcmp(com4 , com1));         
+printf("%d\n",strcmp(com4 , com1));   
+
+                //strcspn
+
+char sa[] = "ABCDEfFG243077";
+char num[] = "0123456789";
+
+int a1 =strcspn(sa , num);
+
+char *ptr = sa + a1;     //array is a pointer 
+
+printf("Total character without numbers:%d\n",a1);
+
+printf("Only numbers: %s\n",ptr);  //when it's strings it print the value instead of address
+
     return 0;
 }
