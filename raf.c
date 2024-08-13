@@ -19,7 +19,7 @@ int main() {
 
     while (count < 100) {
         printf("Do you want to enter information Y/N\n");
-        scanf(" %c", &confirmation);
+        scanf(" %c", &confirmation);    
         getchar(); // Consume leftover newline
 
         if (confirmation == 'Y') {

@@ -24,8 +24,8 @@ printf("BLOCK LETTER\n");
 
 while(count<100){
 printf("Do you want to enter information Y/N\n");
-scanf(" %c",&confirmation);
-getchar();
+scanf(" %c",&confirmation);    //" %c" recognize buffer input space " "
+getchar();                    //consume leftover line
 
 if(confirmation == 'Y'){
 
