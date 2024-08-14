@@ -1,29 +1,14 @@
        #include<stdio.h>
-       #include<string.h>
+       #include<stdlib.h>
 
 int main(){
-char i;
-char g;
+double ba = 5.00;
+char a [10];
 
-scanf(" %c",&i);
+itoa(ba , a ,10);
 
 
-getchar();
-if(i =='u'){
-  printf("true\n");
-}
-else{
-  printf("false\n");
-}
-printf("r\n");
+printf("%s\n",a);
 
-scanf("%c",&g);
-if(g =='u'){
-  printf("true\n");
-}
-else{
-  printf("false\n");
-}
-printf("h\n");
   return 0;
 }
