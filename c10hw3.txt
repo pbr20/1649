@@ -1,0 +1,30 @@
+1)Name: Rithen
+Marks: 87
+CGPA: 3.65
+Course: CSE
+
+
+2)Name: Liva
+Marks: 87
+CGPA: 3.78
+Course: EEE
+
+
+3)Name: Rexua
+Marks: 68
+CGPA: 3.21
+Course: ETE
+
+
+4)Name: Maria
+Marks: 56
+CGPA: 2.78
+Course: CCE
+
+
+5)Name: Golem
+Marks: 100
+CGPA: 4.00
+Course: CSE
+
+

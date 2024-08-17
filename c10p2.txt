@@ -1,0 +1,12 @@
+Name:Rithen
+Age: 20
+CGPA: 3.50
+
+Name:Liva
+Age: 19
+CGPA: 3.00
+
+Name:Arnob
+Age: 20
+CGPA: 3.67
+
